@@ -1,0 +1,39 @@
+body{
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0
+}
+
+.app{
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.App{
+    
+    text-align: center;
+    justify-content: center;
+
+
+}
+.App button{
+    /* justify-content: center; */
+    padding-top: 50%;
+    margin-top: 25%;
+    /* align-items: center; */
+    background-color: var(--twitter-color);
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: none;
+}
+
+.App button:hover{
+    cursor: pointer;
+    transition: color 100ms ease-out
+
+}
