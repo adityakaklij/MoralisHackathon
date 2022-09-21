@@ -5,6 +5,13 @@ const optimizedImages = require('next-optimized-images')
 const nextConfig = optimizedImages({
   reactStrictMode: true,
   handleImages: ['svg'],
+
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  trailingSlash: true,
+
   webpack: (config, { isServer }) => {
     if (!isServer) {
       // Fixes npm packages that depend on `fs` module

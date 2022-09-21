@@ -22,7 +22,7 @@ const NavigationColumnLayout: React.FC = ({ children }) => (
 
 const NavigationHeaderLayout: React.FC = ({ children }) => (
   <div className="h-[10vh] max-h-20 bg-p-600 flex items-center justify-between flex-shrink-0 px-4">
-    <a href="https://degdango.xyz" target="_blank">
+    <a href="https://moralishackathon-9a4ed7.spheron.app/#/" target="_blank">
       <img className="h-8 w-auto" src="/xmtp-icon.png" alt="XMTP" />
     </a>
     {/* <Link href="/" passHref={true}>

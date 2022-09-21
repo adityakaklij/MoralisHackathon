@@ -24,7 +24,9 @@ function Sidebar() {
         </a>
         <SidebarOption Icon={TagIcon} text="Explore" />
         <SidebarOption Icon={NotificationsIcon} text="Notification" />
-        <SidebarOption Icon={MessageIcon} text="Message" />
+        <a href='http://localhost:3000/#/'>
+          <SidebarOption Icon={MessageIcon} text="Message" />
+        </a>
         <SidebarOption Icon={BookmarkIcon} text="Bookmarks"/>
 
         <a href="#/ProfileUpload">
