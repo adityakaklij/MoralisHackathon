@@ -1,5 +1,5 @@
 
-export const contractAddress = "0x26edf369B2089e49e0E9B7899F28E672A553966C"
+export const contractAddress = "0xD33b593FF4c22b13885A0dceE5a989f5e82C2baC" // Deploy on polygon
 export const ABI = [
 	{
 		"inputs": [

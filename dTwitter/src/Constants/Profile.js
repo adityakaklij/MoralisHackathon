@@ -1,5 +1,5 @@
 //Rinkeby
-export const ProfileContract = "0x71Fe2Cc42D1d5a5d5935b0d6bfb8d1D4a4D12F84"
+export const ProfileContract = "0xf6f052f6bC7dDB9Cb3F4F57b4c19Fed0158b7C5E"
 export const ProfileABI = [
 	{
 		"inputs": [],
